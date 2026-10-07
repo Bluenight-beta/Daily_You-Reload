@@ -27,6 +27,7 @@ class Setting<T> {
 class Settings {
   static const configVersion = Setting<String>("configVersion", "2");
   static const theme = Setting<String>("theme", "system");
+  static const interfaceStyle = Setting<String>("interfaceStyle", "default");
   static const useExternalDb = Setting<bool>("useExternalDb", false);
   static const externalDbUri = Setting<String>("externalDbUri", "");
   static const useExternalImg = Setting<bool>("useExternalImg", false);
@@ -127,6 +128,7 @@ class Settings {
   static const List<Setting<Object?>> all = [
     configVersion,
     theme,
+    interfaceStyle,
     useExternalDb,
     externalDbUri,
     useExternalImg,

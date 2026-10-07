@@ -1775,6 +1775,72 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Choose a log'**
   String get shareAddToLogPickerTitle;
+
+  /// No description provided for @interfaceStyleTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Interface style'**
+  String get interfaceStyleTitle;
+
+  /// No description provided for @interfaceStyleDefault.
+  ///
+  /// In en, this message translates to:
+  /// **'Default'**
+  String get interfaceStyleDefault;
+
+  /// No description provided for @interfaceStyleP3.
+  ///
+  /// In en, this message translates to:
+  /// **'P3 · Blue hour'**
+  String get interfaceStyleP3;
+
+  /// No description provided for @interfaceStyleP5.
+  ///
+  /// In en, this message translates to:
+  /// **'P5 · Take your time'**
+  String get interfaceStyleP5;
+
+  /// No description provided for @interfaceStyleDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'P3 and P5 use their own palettes. Return to Default to use your system or custom accent color.'**
+  String get interfaceStyleDescription;
+
+  /// No description provided for @personaEarlyMorning.
+  ///
+  /// In en, this message translates to:
+  /// **'Early morning'**
+  String get personaEarlyMorning;
+
+  /// No description provided for @personaMorning.
+  ///
+  /// In en, this message translates to:
+  /// **'Morning'**
+  String get personaMorning;
+
+  /// No description provided for @personaNoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Noon'**
+  String get personaNoon;
+
+  /// No description provided for @personaAfternoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Afternoon'**
+  String get personaAfternoon;
+
+  /// No description provided for @personaEvening.
+  ///
+  /// In en, this message translates to:
+  /// **'Evening'**
+  String get personaEvening;
+
+  /// No description provided for @personaLateNight.
+  ///
+  /// In en, this message translates to:
+  /// **'Late night'**
+  String get personaLateNight;
 }
 
 class _AppLocalizationsDelegate

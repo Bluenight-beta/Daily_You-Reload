@@ -1,3 +1,4 @@
+import 'package:daily_you/interface_style.dart';
 import 'dart:async';
 import 'dart:io';
 import 'dart:math';
@@ -476,6 +477,11 @@ class _MainAppState extends State<MainApp> {
             ),
             scaffoldBackgroundColor: Colors.black);
       }
+
+      final interfaceStyle = InterfaceStyle.fromKey(
+          configProvider.get(Settings.interfaceStyle));
+      lightTheme = applyInterfaceStyle(lightTheme, interfaceStyle);
+      darkTheme = applyInterfaceStyle(darkTheme, interfaceStyle);
 
       return StatsFl(
         isEnabled: false,

@@ -960,4 +960,38 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get shareAddToLogPickerTitle => 'Choose a log';
+
+  @override
+  String get interfaceStyleTitle => 'Interface style';
+
+  @override
+  String get interfaceStyleDefault => 'Default';
+
+  @override
+  String get interfaceStyleP3 => 'P3 · Blue hour';
+
+  @override
+  String get interfaceStyleP5 => 'P5 · Take your time';
+
+  @override
+  String get interfaceStyleDescription =>
+      'P3 and P5 use their own palettes. Return to Default to use your system or custom accent color.';
+
+  @override
+  String get personaEarlyMorning => 'Early morning';
+
+  @override
+  String get personaMorning => 'Morning';
+
+  @override
+  String get personaNoon => 'Noon';
+
+  @override
+  String get personaAfternoon => 'Afternoon';
+
+  @override
+  String get personaEvening => 'Evening';
+
+  @override
+  String get personaLateNight => 'Late night';
 }

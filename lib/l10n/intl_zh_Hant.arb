@@ -260,5 +260,16 @@
     "settingsOpenSourceLicenses": "開源授權條款",
     "settingsAutoBackupRequireCharging": "僅在充電時",
     "encryptingBackupStatus": "正在加密備份… {percent}%",
-    "decryptingBackupStatus": "正在解密備份… {percent}%"
+    "decryptingBackupStatus": "正在解密備份… {percent}%",
+    "interfaceStyleTitle": "介面風格",
+    "interfaceStyleDefault": "預設",
+    "interfaceStyleP3": "P3 · 藍色時刻",
+    "interfaceStyleP5": "P5 · 慢慢來",
+    "interfaceStyleDescription": "P3 和 P5 使用專屬配色；切回預設可恢復系統或自選強調色。",
+    "personaEarlyMorning": "清晨",
+    "personaMorning": "上午",
+    "personaNoon": "中午",
+    "personaAfternoon": "下午",
+    "personaEvening": "傍晚",
+    "personaLateNight": "深夜"
 }

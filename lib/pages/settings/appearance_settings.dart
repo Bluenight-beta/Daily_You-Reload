@@ -1,3 +1,4 @@
+import 'package:daily_you/interface_style.dart';
 import 'package:daily_you/config_provider.dart';
 import 'package:daily_you/time_manager.dart';
 import 'package:daily_you/widgets/color_picker_dialog.dart';
@@ -230,6 +231,27 @@ class _AppearanceSettingsPageState extends State<AppearanceSettings> {
       ),
       body: ListView(
         children: [
+          SettingsDropdown<InterfaceStyle>(
+            title: AppLocalizations.of(context)!.interfaceStyleTitle,
+            value: InterfaceStyle.fromKey(
+                configProvider.get(Settings.interfaceStyle)),
+            options: InterfaceStyle.values
+                .map((style) => DropdownMenuItem(
+                      value: style,
+                      child: Text(style.label(AppLocalizations.of(context)!)),
+                    ))
+                .toList(),
+            onChanged: (style) {
+              if (style != null) {
+                configProvider.set(Settings.interfaceStyle, style.key);
+              }
+            },
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            child:
+                Text(AppLocalizations.of(context)!.interfaceStyleDescription),
+          ),
           SettingsDropdown<String>(
               title: AppLocalizations.of(context)!.settingsTheme,
               value: configProvider.get(Settings.theme),

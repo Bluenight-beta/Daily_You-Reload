@@ -259,5 +259,16 @@
     "encryptingBackupStatus": "正在加密备份… {percent}%",
     "decryptingBackupStatus": "正在解密备份… {percent}%",
     "settingsOpenSourceLicenses": "开源许可",
-    "settingsAutoBackupMaxCount": "保留的备份数量"
+    "settingsAutoBackupMaxCount": "保留的备份数量",
+    "interfaceStyleTitle": "界面风格",
+    "interfaceStyleDefault": "默认",
+    "interfaceStyleP3": "P3 · 蓝色时刻",
+    "interfaceStyleP5": "P5 · 慢慢来",
+    "interfaceStyleDescription": "P3 和 P5 使用专属配色；切回默认可恢复系统或自选强调色。",
+    "personaEarlyMorning": "清晨",
+    "personaMorning": "上午",
+    "personaNoon": "中午",
+    "personaAfternoon": "下午",
+    "personaEvening": "傍晚",
+    "personaLateNight": "深夜"
 }

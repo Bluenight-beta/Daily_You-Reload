@@ -944,6 +944,39 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get shareAddToLogPickerTitle => 'Choose a log';
+
+  @override
+  String get interfaceStyleTitle => '界面风格';
+
+  @override
+  String get interfaceStyleDefault => '默认';
+
+  @override
+  String get interfaceStyleP3 => 'P3 · 蓝色时刻';
+
+  @override
+  String get interfaceStyleP5 => 'P5 · 慢慢来';
+
+  @override
+  String get interfaceStyleDescription => 'P3 和 P5 使用专属配色；切回默认可恢复系统或自选强调色。';
+
+  @override
+  String get personaEarlyMorning => '清晨';
+
+  @override
+  String get personaMorning => '上午';
+
+  @override
+  String get personaNoon => '中午';
+
+  @override
+  String get personaAfternoon => '下午';
+
+  @override
+  String get personaEvening => '傍晚';
+
+  @override
+  String get personaLateNight => '深夜';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -1866,4 +1899,37 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String chartDistributionTitle(Object tag) {
     return '$tag 分佈';
   }
+
+  @override
+  String get interfaceStyleTitle => '介面風格';
+
+  @override
+  String get interfaceStyleDefault => '預設';
+
+  @override
+  String get interfaceStyleP3 => 'P3 · 藍色時刻';
+
+  @override
+  String get interfaceStyleP5 => 'P5 · 慢慢來';
+
+  @override
+  String get interfaceStyleDescription => 'P3 和 P5 使用專屬配色；切回預設可恢復系統或自選強調色。';
+
+  @override
+  String get personaEarlyMorning => '清晨';
+
+  @override
+  String get personaMorning => '上午';
+
+  @override
+  String get personaNoon => '中午';
+
+  @override
+  String get personaAfternoon => '下午';
+
+  @override
+  String get personaEvening => '傍晚';
+
+  @override
+  String get personaLateNight => '深夜';
 }

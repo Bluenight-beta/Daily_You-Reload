@@ -1,3 +1,5 @@
+import 'package:daily_you/interface_style.dart';
+import 'package:daily_you/widgets/persona_day_header.dart';
 import 'dart:async';
 import 'dart:io';
 
@@ -306,6 +308,12 @@ class _HomePageState extends State<HomePage>
     return Stack(alignment: Alignment.bottomCenter, children: [
       Column(
         children: [
+          if (InterfaceStyle.fromKey(
+                  configProvider.get(Settings.interfaceStyle)) !=
+              InterfaceStyle.standard)
+            PersonaDayHeader(
+                style: InterfaceStyle.fromKey(
+                    configProvider.get(Settings.interfaceStyle))),
           if (showBanner) SupportBanner(configProvider: configProvider),
           if (showFlashbacks) _buildFlashbacksRow(context, flashbacks),
           Expanded(
